@@ -37,7 +37,7 @@ export default function InstructDashboard() {
     const [mode, setMode] = useState('date');
     const [refreshing, setRefreshing] = useState(false);
 
-    // ... (keeping all the existing functions)
+    
     const onRefresh = useCallback(() => {
         setRefreshing(true);
         setTimeout(() => {
